@@ -7,7 +7,7 @@ Bcftools is used to obtain VCF files (SNPs). Following filter step, the Modkit s
 Quality control pipeline in R includes checking for batch effects across flow cells, outlier detection, min coverage threshold, sex prediction, PCA and density plots etc. 
 Differential (hydroxy)methylation analysis is performed using the Limma package in R.
 
-[![](https://img.shields.io/badge/Repository%20license-GPL-3.0-green)](https://github.com/LKoole/ONT-seq-Epi-AD/LICENSE.md) 
+[![](https://img.shields.io/badge/Repository%20license_GPL_3.0-green)](https://github.com/LKoole/ONT-seq-Epi-AD/LICENSE.md) 
 
 
 ## Download files
@@ -15,6 +15,7 @@ Differential (hydroxy)methylation analysis is performed using the Limma package 
 - Annotation file and add to Anno folder
 - GCA_000001405.15_GRCh38_no_alt_analysis_set.fna and add to Reference-files
 - GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.fai and add to Reference-files
+
 
 ## Contact
 Lisa Koole: ([LKoole](https://github.com/LKoole)) - lisa.koole@maastrichtuniversity.nl
