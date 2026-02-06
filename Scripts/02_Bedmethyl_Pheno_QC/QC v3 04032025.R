@@ -60,11 +60,6 @@ library(RColorBrewer)
 library(svglite)
 library(viridis)
 
-
-# library(devtools)
-# devtools::install_github("DevonDeRaad/SNPfiltR")
-# library(SNPfiltR)
-
 #-----------------------------------------------------------------------------------------------------#
 # 				3. Load pheno data and determine CaseIDs                              ----
 #-----------------------------------------------------------------------------------------------------#
@@ -143,17 +138,6 @@ positions_filtered <- filter_cpgs_cpm(scores_file = file.path(paste0(s_ROOT_dir,
 
 # Free up memory
 gc()
-
-# cutoff 5 -- 1 826 331
-# cutoff 6 -- 279 418
-# cutoff 7 -- 16 459 
-# cutoff 10 -- ~7500
-
-# cutoff 10 -- 8222
-# cutoff 5 -- 2 418 654 
-# cutoff 6 -- 632 297 
-
-# cutoff 6 --- 118 525 (13062025)
 
 
 # Apply filter to all files (5mC, 5hmC, modified etc.)
@@ -996,7 +980,6 @@ weights_global_sample(scores_file = file.path(paste0(s_OUT_dir, "Bedmethyl_all/b
 #					      17. Density plots per modification type           ------
 #-----------------------------------------------------------------------------------------------------#
 
-#### MAKE IT INTERACTIVE?
 
 # List of samples 
 temp = list.files(file.path(s_project_folder, "Bedmethyl/"), pattern="bam.bed.rds", 
