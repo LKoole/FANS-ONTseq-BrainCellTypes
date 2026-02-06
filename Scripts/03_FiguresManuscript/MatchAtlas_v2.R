@@ -15,7 +15,7 @@
 #							Main settings or load                                             ---- 
 #-----------------------------------------------------------------------------------------------------#
 # Set root folder
-s_ROOT_dir <<- "G:/.shortcut-targets-by-id/1-U3PYANHthlhUCklfcHOQA8_gPsFjKjA/Lisa Koole/Data (raw) and analysis/Oxford Nanopore Epi-AD/"
+s_ROOT_dir <<- "path/to/root/directory"
 
 # Get all general settings 
 source(paste0(s_ROOT_dir,"Scripts/.Main/Settings_v2.R"))
@@ -340,5 +340,6 @@ data_subset %>%
   )
 
 dev.off()
+
 
 
