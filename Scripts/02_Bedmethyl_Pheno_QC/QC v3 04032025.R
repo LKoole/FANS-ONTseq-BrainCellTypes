@@ -6,7 +6,7 @@
 #	QC.R
 #
 #	Purpose 
-#		This code was made for calculating high confidence calls 
+#		This code was made for quality control
 #
 # Author comment:
 #	Lisa Koole
