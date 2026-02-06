@@ -26,7 +26,7 @@ s_seed <<- 42
 #-----------------------------------------------------------------------------------------------------#
 # define ROOT here 
 # >>> change this to your path! <<<
-s_ROOT_dir <<- "G:/.shortcut-targets-by-id/1-U3PYANHthlhUCklfcHOQA8_gPsFjKjA/Lisa Koole/Data (raw) and analysis/Oxford Nanopore Epi-AD/"
+s_ROOT_dir <<- "path/to/root/directory"
 
 #-----------------------------------------------------------------------------------------------------#
 #							Folder settings
