@@ -4,7 +4,7 @@
 #-----------------------------------------------------------------------------------------------------#
 
 # Get all general settings 
-s_ROOT_dir <<- "G:/.shortcut-targets-by-id/1-U3PYANHthlhUCklfcHOQA8_gPsFjKjA/Lisa Koole/Data (raw) and analysis/Oxford Nanopore Epi-AD/"
+s_ROOT_dir <<- "path/to/root/directory"
 
 source(paste0(s_ROOT_dir,"Scripts/.Main/Settings_v2.R"))
 
